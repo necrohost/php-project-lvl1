@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Install dependencies
-      run: composer install --dev
+      run: composer require squizlabs/php_codesniffer --dev
       
     - name: Check lint
       run: make lint
