@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "description": "First hexlet project for students",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "necrohost",
+            "email": "kirpub@ya.ru"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
+}
