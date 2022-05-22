@@ -11,8 +11,10 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    
     - name: Install cs
       run: composer require squizlabs/php_codesniffer --dev
       
     - name: Check lint
-      run: make validate
+      run: make lint
