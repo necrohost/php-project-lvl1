@@ -28,6 +28,6 @@ function is_odd_or_not(): void
             line("'$answer' is wrong answer ;(. Correct answer was '$anti'");
             break;
         }
-        $ct == 0 ? line("Congratulations, $name!") : line("Let's try again, $name!");
     }
+    $ct == 0 ? line("Congratulations, $name!") : line("Let's try again, $name!");
 }
